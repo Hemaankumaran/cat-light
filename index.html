@@ -6,7 +6,7 @@
 </head>
 <body>
     <img id="Cat" src="https://tse4.mm.bing.net/th?id=OIP.wOIYcd3giZ-DTkfzFugylwHaH6&pid=Api&P=0&h=180" alt="cat">
-    <!-- <img id="Light" src="https://tse3.mm.bing.net/th?id=OIP.zHtYy800GhmmVF2UfkgymwHaJ4&pid=Api&P=0&h=180" alt="light"> -->
+    <img id="Light" src="https://tse3.mm.bing.net/th?id=OIP.zHtYy800GhmmVF2UfkgymwHaJ4&pid=Api&P=0&h=180" alt="light">
     <p id="Switch">I am a Cat</p>
     <button style="color: green;" id="On">ON</button>
     <button style="color: red;" id="Off">OFF</button>
@@ -19,16 +19,15 @@
 
         on.addEventListener("click",()=>{
             console.log("on btn clicked")
-            // console.log(Switch)
             cat.src="https://tse4.mm.bing.net/th?id=OIP.wOIYcd3giZ-DTkfzFugylwHaH6&pid=Api&P=0&h=180"
-            // light.src="https://tse3.mm.bing.net/th?id=OIP.zHtYy800GhmmVF2UfkgymwHaJ4&pid=Api&P=0&h=180"
+            light.src="https://tse3.mm.bing.net/th?id=OIP.zHtYy800GhmmVF2UfkgymwHaJ4&pid=Api&P=0&h=180"
             para.textContent="I am a Cat"
         })
 
         off.addEventListener("click",()=>{
             console.log("off btn clicked")
             cat.src="https://tse2.mm.bing.net/th?id=OIP.S27donlSNxItSGhah5UxkAHaE7&pid=Api&P=0&h=180"
-            // light.src="https://tse1.mm.bing.net/th?id=OIP.PEty5zPe-qg8z30wmqy8NQHaE5&pid=Api&P=0&h=180"
+            light.src="https://tse1.mm.bing.net/th?id=OIP.PEty5zPe-qg8z30wmqy8NQHaE5&pid=Api&P=0&h=180"
             para.textContent = "I am Batman"
         })
     </script>
